@@ -110,7 +110,7 @@
         </dependencies>
 
         <build>
-            <finalName>lre-shoppingcart</finalName>
+            <finalName>lre-shoppingcart</finalName> <!-- ties together app and heroku -->
             <plugins>
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
