@@ -1,7 +1,6 @@
 package com.lambdaschool.shoppingcart.services;
 
 import com.lambdaschool.shoppingcart.ShoppingcartApplication;
-import com.lambdaschool.shoppingcart.models.User;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
@@ -12,8 +11,6 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.List;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -29,12 +26,6 @@ public class UserServiceImplTest
     public void setUp() throws Exception
     {
         MockitoAnnotations.initMocks(this);
-
-        List<User> myList = userService.findAll();
-        for (User u : myList)
-        {
-            System.out.println(u.getUserid() + "" + u.getUsername());
-        }
     }
 
     @After
@@ -51,7 +42,7 @@ public class UserServiceImplTest
     @Test
     public void findUserById()
     {
-        assertEquals("test barnbarn", userService.findUserById(7).getUsername());
+        assertEquals("barnbarn", userService.findUserById(1).getUsername());
     }
 
     @Test
