@@ -18,7 +18,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @SpringBootApplication
 public class ShoppingCartApplication
 {
-    private static final Logger logger = LoggerFactory.getLogger(com.lambdaschool.shoppingcart.ShoppingCartApplication.class);
+    private static final Logger logger = LoggerFactory.getLogger(com.lambdaschool.shoppingcart.ShoppingCartApplicationTests.class);
 
     private static boolean stop = false;
 
@@ -41,7 +41,7 @@ public class ShoppingCartApplication
 
         if (!stop)
         {
-            ApplicationContext ctx = SpringApplication.run(com.lambdaschool.shoppingcart.ShoppingCartApplication.class,
+            ApplicationContext ctx = SpringApplication.run(com.lambdaschool.shoppingcart.ShoppingCartApplicationTests.class,
                 args);
 
             DispatcherServlet dispatcherServlet = (DispatcherServlet) ctx.getBean("dispatcherServlet");

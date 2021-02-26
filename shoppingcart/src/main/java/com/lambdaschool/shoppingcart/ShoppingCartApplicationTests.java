@@ -2,14 +2,13 @@ package com.lambdaschool.shoppingcart;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 /**
  * Main class to start the application.
  */
-@EnableJpaAuditing
+//@EnableJpaAuditing
 @SpringBootApplication
-public class ShoppingCartApplication
+public class ShoppingCartApplicationTests
 {
     /**
      * Main method to start the application.
@@ -19,7 +18,7 @@ public class ShoppingCartApplication
     public static void main(String[] args)
     {
         // now run the real application!
-        SpringApplication.run(ShoppingCartApplication.class,
+        SpringApplication.run(ShoppingCartApplicationTests.class,
             args);
     }
 }
