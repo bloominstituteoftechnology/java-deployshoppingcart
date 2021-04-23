@@ -35,7 +35,7 @@ public class HelperFunctionsImpl
         // we know that cause either null or an instance of ConstraintViolationException
         if (cause != null)
         {
-            if (cause instanceof org.hibernate.exception.ConstraintViolationException)
+            if (cause instanceof ConstraintViolationException)
             {
                 org.hibernate.exception.ConstraintViolationException ex = (ConstraintViolationException) cause;
                 ValidationError newVe = new ValidationError();
