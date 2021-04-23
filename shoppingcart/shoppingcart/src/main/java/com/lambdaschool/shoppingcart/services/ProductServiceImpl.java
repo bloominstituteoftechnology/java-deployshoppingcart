@@ -123,4 +123,9 @@ public class ProductServiceImpl
 
         return productrepos.save(currentProduct);
     }
+
+    @Override
+    public void deleteAll() {
+        productrepos.deleteAll();
+    }
 }

@@ -100,7 +100,7 @@
     </dependencies>
 
     <build>
-        <finalName>tagbokhana-web40restdb</finalName>
+        <finalName>tagbokhana-shoppingcart</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
