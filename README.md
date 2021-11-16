@@ -7,7 +7,7 @@ A Student that completes this project shows they can:
 
 ## Introduction
 
-For this project, we are starting with your ending project from [Shopping Cart](https://github.com/LambdaSchool/java-shoppingcart.git). We are going to deploy this project to Heroku.
+For this project, we are starting with your ending project from [Shopping Cart](https://github.com/BloomInstituteOfTechnology/java-shoppingcart.git). We are going to deploy this project to Heroku.
 
  A shopping cart is a common application so let's look at one. This Java Spring REST API application will provide endpoints for clients to perform the various CRUD operations on data sets contained in the application's data. Access to these endpoints will be secured using OAuth2 Authentication.
 
@@ -36,7 +36,7 @@ To find out the endpoints available to you in the initial application, you will 
 ## Instructions
 
 * [ ] Please fork and clone this repository.
-* [ ] This repository does not have a starter project, so you must start with the Shopping Cart Application from your submission for the module project [https://github.com/LambdaSchool/java-shoppingcart.git](https://github.com/LambdaSchool/java-shoppingcart.git). Regularly commit and push your code as appropriate.
+* [ ] This repository does not have a starter project, so you must start with the Shopping Cart Application from your submission for the module project [https://github.com/BloomInstituteOfTechnology/java-shoppingcart.git](https://github.com/BloomInstituteOfTechnology/java-shoppingcart.git). Regularly commit and push your code as appropriate.
 * [ ] For the seed files provided in the original project, that all of the users' passwords are "LambdaLlama".
 
 ### MVP
